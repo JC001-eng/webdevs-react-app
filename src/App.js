@@ -5,7 +5,7 @@ import Button from "./Button";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App font-main">
       <Header />
       <Button />
     </div>
