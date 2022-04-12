@@ -16,13 +16,23 @@ const StyledButton = styled.button`
   }
 `;
 
+// function Button() {
+//   return (
+//     <StyledButton>
+//       <p>
+//         <a href="goop.com" target="_blank" rel="noopener noreferrer">
+//           Shop Now
+//         </a>
+//       </p>
+//     </StyledButton>
+//   );
+// }
+
 function Button() {
   return (
     <StyledButton>
       <p>
-        <a href="goop.com" target="_blank" rel="noopener noreferrer">
-          Shop Now
-        </a>
+        Click Me
       </p>
     </StyledButton>
   );
